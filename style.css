@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: #202731;
+}
+
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+.blue{
+    background: #25326E;
+}
+
+.purple{
+    background:#C689C6;
+}
+
+.pink{
+    background: #FF9494;
+}
+
+.dark{
+    background: #A0BCE2;
+}
+
+/* 
+.bubble::after {
+    content: '';
+        border-top-left-radius: 50% 100%;
+        border-top-right-radius: 50% 100%;
+        position: absolute;
+        bottom: 0;
+        z-index: -1;
+        width: 100%;
+        background-color: #0f0f10;
+        height: 85%;
+} */
+
+.custom-shape-divider-top-1663869944 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1663869944 svg {
+    position: relative;
+    display: block;
+    width: calc(170% + 1.3px);
+    height: 137px;
+}
+
+.custom-shape-divider-top-1663869944 .shape-fill {
+    fill: #25326E;
+}
+
+
+.custom-shape-divider-top-1663870160 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1663870160 svg {
+    position: relative;
+    display: block;
+    width: calc(133% + 1.3px);
+    height: 215px;
+}
+
+.custom-shape-divider-top-1663870160 .shape-fill {
+    fill:#A0BCE2;
+}
+
+.custom-shape-divider-top-1663870661 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1663870661 svg {
+    position: relative;
+    display: block;
+    width: calc(135% + 1.3px);
+    height: 162px;
+}
+
+.custom-shape-divider-top-1663870661 .shape-fill {
+    fill: #FF9494;
+}
+
+article{
+    display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 15px;
+        padding: 2rem 2rem;
+        margin: 0 1 rem;
+        margin-left: 1.5%;
+        max-width: 18rem;
+        box-shadow: inset -5px -5px 15px #ffffff,
+            inset 5px 5px 15px rgba(0, 0, 0, .30);
+        transform-origin: 65% 75%;
+        transition: transform 1s, filter .5s ease-out;
+    }
+article:hover {
+    transform: rotate(3deg);
+}
+
+
+@media only screen and (max-width: 550px) {
+    .meals {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nutrients ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    }
+
+}
+
+.image-grid{
+    --gap: 16px;
+    --num-cols: 4;
+
+}
