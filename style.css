@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color: black;
     background: #202731;
 }
 
@@ -17,7 +17,8 @@ section{
 
 h1{
     font-family: 'Dancing Script', cursive;
-    font-size: 40px;
+    font-size: 50px;
+    margin-bottom: 7%;
 }
 .blue{
     background: #25326E;
@@ -65,7 +66,7 @@ h1{
 }
 
 .custom-shape-divider-top-1663869944 .shape-fill {
-    fill: #25326E;
+    fill: #A0BCE2;
 }
 
 
@@ -123,30 +124,62 @@ article{
             inset 5px 5px 15px rgba(0, 0, 0, .30);
         transform-origin: 65% 75%;
         transition: transform 1s, filter .5s ease-out;
+        background-color: white;
+        opacity: 0.75;
     }
 article:hover {
     transform: rotate(3deg);
+    cursor:pointer;
 }
 
 
 @media only screen and (max-width: 550px) {
-    .meals {
+    .container {
+        display:flex;
         flex-direction: column;
+        flex-shrink: 3;
         align-items: center;
+        max-width: 100%;
+    
     }
 
-    .nutrients ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
+    h1{ 
+        font-size: 35px;
 
     }
+
+    h2 {
+        font-size: 18px;
+    }
+
+
 
 }
 
-.image-grid{
-    --gap: 16px;
-    --num-cols: 4;
 
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+article{
+    margin: 4%;
+    
+}
+
+.logo {
+    width: 75%;
+    border-radius: 30px;
+}
+
+.personality {
+
+    width: 50%;
+    border-radius: 30px;
+}
+
+.white {
+    color: #ffffff;
 }
